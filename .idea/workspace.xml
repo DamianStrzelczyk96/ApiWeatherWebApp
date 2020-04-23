@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ee3099b-1a45-4428-b173-f93b05d08db5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Dni.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Config.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MainAppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainAppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Config.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MainApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MainApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MainAppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/MainAppTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +38,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="JUnit.MainAppTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -106,8 +96,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MainAppTest" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.MainAppTest" />
         <item itemvalue="JUnit.MainAppTest.connectByCityNameTest" />
         <item itemvalue="JUnit.MainAppTest.connectByZipCodeTest" />
         <item itemvalue="JUnit.MainAppTest.connectionTest" />
@@ -125,12 +115,24 @@
       <option name="presentableId" value="Default" />
       <updated>1587627484937</updated>
       <workItem from="1587627489625" duration="4831000" />
-      <workItem from="1587635721131" duration="9170000" />
+      <workItem from="1587635721131" duration="10065000" />
     </task>
+    <task id="LOCAL-00001" summary="+Prognoza na kilka dni +Test metody parseJsonForXDays">
+      <created>1587647311274</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587647311274</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="+Prognoza na kilka dni +Test metody parseJsonForXDays" />
+    <option name="LAST_COMMIT_MESSAGE" value="+Prognoza na kilka dni +Test metody parseJsonForXDays" />
   </component>
   <component name="WindowStateProjectService">
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587627736060">
@@ -141,25 +143,33 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1587640400742" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1587646613777">
+    <state x="359" y="0" key="CommitChangelistDialog2" timestamp="1587647309476">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587646613777" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1587646613777">
+    <state x="359" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1587647309476" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1587647086368">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587646613777" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1587646613776">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587647086368" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1587647086368">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587646613776" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1587646613777">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587647086368" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1587647086368">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587646613777" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587647086368" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1587647086368">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587647086368" />
     <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1587637967142">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1587637967142" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1587647313039">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1587647313039" />
   </component>
 </project>

@@ -15,7 +15,7 @@ public class MainApp implements Runnable {
         scanner = new Scanner(System.in);
         System.out.println("Wybierz po czym chcesz znaleźć miejsce dla którego wyświetlisz pogodę \n" +
                 "0 - Zakończ działanie \n1 - Nazwa Miasta \n2 - Kod pocztowy\n" +
-                "3-Nazwa miasta - prognoza na kilka dni");
+                "3 - Nazwa miasta-prognoza na kilka dni\n4 - Kod pocztowy-prognoza na kilka dni");
         Integer name = scanner.nextInt();
         chooseTypeSearching(name);
     }
@@ -35,6 +35,11 @@ public class MainApp implements Runnable {
 
             case 3:
                 connectByCityForXDays();
+                startApp();
+                break;
+
+            case 4:
+                connectByZipCodeForXDays();
                 startApp();
                 break;
         }
@@ -125,6 +130,19 @@ public class MainApp implements Runnable {
             e.printStackTrace();
         }
     }
+
+    private void connectByZipCodeForXDays() {
+        System.out.println("Podaj kod pocztowy miasta: ");
+        String zipcode = scanner.next();
+        try {
+            String response = new HttpService().connect(Config.APP_URL_DAILY + "zip=" + zipcode + ",pl"
+                    + "&appid=" + Config.APP_ID);
+            parseJsonForXDays(response);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
     private void parseJsonForXDays(String json){
         double temp;
         int humidity;
