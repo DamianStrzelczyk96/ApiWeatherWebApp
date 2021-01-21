@@ -123,7 +123,7 @@ public class MainApp{
 //            System.out.println("Error");
 //        }
 //    }
-    public List<Dni> connectByCityForXDays(String cityName, int iloscDni) throws IOException {
+    public List<Dni> connectByCityForXDays(String cityName, int iloscDni) throws IOException, JSONException {
         String response = null;
         try {
             response = new HttpService().connect( Config.APP_URL_DAILY+"q="+cityName+"&appid="+Config.APP_ID);
@@ -147,7 +147,7 @@ public class MainApp{
 //        }
 //    }
 
-    public List<Dni> parseJsonForXDays(String json, int iloscDni){
+    public List<Dni> parseJsonForXDays(String json, int iloscDni) throws JSONException {
         double temp;
         int humidity;
         int pressure;

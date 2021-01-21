@@ -1,6 +1,7 @@
 package Project;
 
 import Project.service.CanvasjsChartService;
+import org.json.JSONException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -38,7 +39,7 @@ public List<Dni>days = new ArrayList<>();
     }
 
     @RequestMapping(value = "/getName", method = RequestMethod.GET)
-    public ModelAndView getCityName(@RequestParam(value = "cityName") String cityName) throws IOException {
+    public ModelAndView getCityName(@RequestParam(value = "cityName") String cityName) throws IOException, JSONException {
         this.cityName = cityName;
         System.out.println(cityName);
         MainApp mainApp = new MainApp();
