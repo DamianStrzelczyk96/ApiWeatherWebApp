@@ -22,7 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ee3099b-1a45-4428-b173-f93b05d08db5" name="Default Changelist" comment="+WebApp" />
+    <list default="true" id="0ee3099b-1a45-4428-b173-f93b05d08db5" name="Default Changelist" comment="+WebApp2">
+      <change beforePath="$PROJECT_DIR$/target/classes/Project/DrawChart$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Project/DrawChart.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Project/DrawChart.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -200,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611247498674</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="+WebApp2">
+      <created>1611248426900</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1611248426900</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,7 +233,8 @@
     <MESSAGE value="+Prognoza na kilka dni +Test metody parseJsonForXDays" />
     <MESSAGE value="+obsługa ZipCode" />
     <MESSAGE value="+WebApp" />
-    <option name="LAST_COMMIT_MESSAGE" value="+WebApp" />
+    <MESSAGE value="+WebApp2" />
+    <option name="LAST_COMMIT_MESSAGE" value="+WebApp2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="249" y="0" key="#Project_Structure" timestamp="1610541010548">
@@ -250,22 +261,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1611247414998" />
-    <state width="1493" height="218" key="GridCell.Tab.0.bottom" timestamp="1611247106798">
+    <state width="1493" height="218" key="GridCell.Tab.0.bottom" timestamp="1611248599592">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="218" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1611247106798" />
-    <state width="1493" height="218" key="GridCell.Tab.0.center" timestamp="1611247106796">
+    <state width="1493" height="218" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1611248599592" />
+    <state width="1493" height="218" key="GridCell.Tab.0.center" timestamp="1611248599591">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="218" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1611247106796" />
-    <state width="1493" height="218" key="GridCell.Tab.0.left" timestamp="1611247106796">
+    <state width="1493" height="218" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1611248599591" />
+    <state width="1493" height="218" key="GridCell.Tab.0.left" timestamp="1611248599591">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="218" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1611247106796" />
-    <state width="1493" height="218" key="GridCell.Tab.0.right" timestamp="1611247106797">
+    <state width="1493" height="218" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1611248599591" />
+    <state width="1493" height="218" key="GridCell.Tab.0.right" timestamp="1611248599591">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="218" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1611247106797" />
+    <state width="1493" height="218" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1611248599591" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1611183961453">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -286,10 +297,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1610545660543" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1611247505081">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1611248431318">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1611247505081" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1611248431318" />
     <state x="323" y="148" width="890" height="628" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1610901861519">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
