@@ -25,8 +25,7 @@ public class WebService{
 
 public List<Dni>days = new ArrayList<>();
 
-    @Autowired
-    private CanvasjsChartService canvasjsChartService;
+
 
 
     String cityName;
@@ -50,7 +49,7 @@ public List<Dni>days = new ArrayList<>();
     int number = 0;
     String FullFileSend;
     @RequestMapping(value = "/setCityName")
-    public String setCityName(Model model) throws IOException {
+    public String setCityName(Model model){
         model.addAttribute("weather",days);
 //        DrawChart drawChart = new DrawChart();
 //        BufferedImage image = drawChart.DrawChart(days);
@@ -82,7 +81,7 @@ public List<Dni>days = new ArrayList<>();
     String bytes;
 DrawChart drawChart = new DrawChart();
     @RequestMapping(value = "/drawImage")
-    public String drawImage(ModelMap model) throws IOException, InterruptedException {
+    public String drawImage(ModelMap model) throws IOException {
         if(days!=null) {
 
 //                img = ImageIO.read(new File("image2.png"));

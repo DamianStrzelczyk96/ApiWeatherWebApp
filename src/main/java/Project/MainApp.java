@@ -147,7 +147,7 @@ public class MainApp{
 //        }
 //    }
 
-    public List<Dni> parseJsonForXDays(String json, int iloscDni) throws IOException {
+    public List<Dni> parseJsonForXDays(String json, int iloscDni){
         double temp;
         int humidity;
         int pressure;
