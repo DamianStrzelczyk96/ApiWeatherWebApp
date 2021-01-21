@@ -1,6 +1,5 @@
 package Project;
 
-import javafx.util.StringConverter;
 import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartPanel;
 import org.jfree.chart.ChartUtils;
@@ -18,8 +17,6 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.*;
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -142,16 +139,6 @@ int days = 0;
         return chart;
 
 }
-    StringConverter<LocalDateTime> stringConverter =
-            new StringConverter<LocalDateTime>() {
-                @Override public String toString(LocalDateTime localDateTime) {
-                    DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd.MM.yy\nHH:mm:ss");
-                    return dtf.format(localDateTime);
-                }
-                @Override public LocalDateTime fromString(String s) {
-                    return LocalDateTime.parse(s);
-                }
 
-            };
 
 }
