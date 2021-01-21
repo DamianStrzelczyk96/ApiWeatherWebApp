@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--online css-->
+    <title>Menu</title>
+</head>
+<body style="background-color:rgba(66, 100, 124, 0.8);">
+<div>
+    <div>
+        <div class="page-header text-center">
+            <h1>API WEATHER</h1>
+        </div>
+        <div class="text-center">
+            <a href="/back"class="btn btn-success" role="button">BACK</a><br><br>
+        </div>
+
+        <form action="/getName">
+            <label for="cityName">City name:</label><br>
+            <input type="text" id="cityName" name="cityName" value="Grojec"><br>
+            <input type="submit" value="Submit">
+        </form>
+
+        <form action="/setCityName" oninput="cityName">
+            <label for="cityName">City name:</label><br>
+            <div th:text="${cityName}"> </div>
+        </form>
+<div>
+    <a href="/drawImage"class="btn btn-success" role="button">DRAW CHART</a><br><br>
+</div>
+
+
+        <div class="container">
+        </div>
+        <table class="table table-bordered" style="background-color:rgb(255, 255, 255);">
+            <thead>
+            <tr>
+                <th>Date</th>
+                <th>Temperature [°C]</th>
+                <th>Snow</th>
+                <th>Humidity</th>
+                <th>Pressure [hPa]</th>
+                <th>Clouds</th>
+                <th>Wind [m/s]</th>
+                <th>Description</th>
+            </tr>
+            </thead>
+            <tbody>
+        <tr data-th-each="day : ${weather}" >
+            <td th:text="${day.data}"></td>
+            <td th:text="${day.tempInC}"></td>
+            <td th:text="${day.snow}"></td>
+            <td th:text="${day.humidity}"></td>
+            <td th:text="${day.pressure}"></td>
+            <td th:text="${day.clouds}"></td>
+            <td th:text="${day.wind}"></td>
+            <td th:text="${day.opis}"></td>
+        </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+</body>
+</html>
