@@ -14,6 +14,7 @@ String[] split = data.split(" ");
 
         char hour0 = hours.charAt(0);
         char hour1 = hours.charAt(1);
+
         StringBuilder times = new StringBuilder();
         times.append(hour0);
         times.append(hour1);
