@@ -44,7 +44,7 @@ public class DrawChart extends JFrame {
 int number = 0;
     private int initUI() throws IOException {
         if(number<5){
-        number = number + 1;}
+        number = number + 1 ;}
         else { number = 0;}
         BufferedImage bImage = null;
         XYDataset dataset = createDataset();
