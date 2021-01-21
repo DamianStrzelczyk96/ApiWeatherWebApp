@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>CHART</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+</head>
+<body>
+<div class="text-center">
+
+
+    <img th:src="${photoLink}" width="450" height="450" title="z pliku $">
+    <img th:src="@{${photoLink}}" width="450" height="450" title="z pliku @">
+<!--    <img th:src="@{${/image/display}}"-->
+<!--         class="img img-responsive img-fluid" alt="">-->
+    <a href="/back"class="btn btn-success" role="button">BACK</a><br><br>
+</div>
+</body>
+</html>
